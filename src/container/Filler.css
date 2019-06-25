@@ -1,0 +1,7 @@
+.initial {
+    animation-name: countdown;
+}
+@keyframes countdown{
+    from {left: 0%;}
+    to {left: -100%;}
+}

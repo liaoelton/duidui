@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.outmost-container{
+  background-image: url("./img/Tounge.png");
+  background-size: 13em;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background:rgba(255,255,255,0.55);
+}
+
+.title{
+  font-size: 50px;
+}

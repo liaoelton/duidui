@@ -1,0 +1,120 @@
+/* .playground_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: 'center';
+}
+.time_container {
+    width: 640px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.time_bar {
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px;
+    width: 600px;
+    height: 25px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.webcam{
+    position: relative;
+    margin: 0 auto;
+    --webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.require_container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: white;
+}
+.circle{
+    position: relative;
+    border: 3px black solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin: 10px;
+}
+.text{
+    text-align: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    font-size: 35px;
+} */
+
+.color_circle {
+    position: absolute;
+    border-radius: inherit;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+.black {
+    background-color: black;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+
+.nextlevel_container {
+    position: absolute;
+    top: 40px;
+    width: 640px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    background:rgba(58, 54, 54, 0.8);
+}
+
+.nextlevel_button {
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+.tire_picture_container {
+    width: 640px;
+    height: 480px;
+    position: absolute;
+    top: 40px;
+}
+
+.countdown_container {
+    width: 640px;
+    height: 480px;
+    position: absolute;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(58, 54, 54, 0.8);
+}
+
+.level_container {
+    position: absolute;
+    top: 40px;
+    color: red;
+    margin-top: 5px;
+    font-weight: bold;
+    left: 330px;
+}
+.hidden {
+    display: none;
+}
