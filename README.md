@@ -5,7 +5,7 @@
 > https://youtu.be/NTuDPZVo7nE
 
 > GITHUB REPO
-> 
+> https://github.com/liaoelton/duidui
  
 > DEPLOY網址
 > https://duidui.herokuapp.com/
@@ -16,10 +16,12 @@
 
 > 安裝操作方式
 
-    1.git clone (REPO)
-    2.cd DUIDUI
-    3.npm start
-    4.打開localhost:3000
+    打開後端node server
+    cd backend && npm install && nodemon server.js
+    打開後端python server
+    cd backend && pip install -r requirements.txt && python server.py
+    打開前端react app
+    npm start
 
 > 操作方式
 
