@@ -1,8 +1,3 @@
----
-title: 'Project documentation template'
-disqus: hackmd
----
-
 [107-2] Web Programming Final
 ===
 
@@ -36,6 +31,8 @@ disqus: hackmd
 
 前端
 
+    * react-webcam (擷取webcam）
+    * reactstrap (UI)
     * react-router-dom （router）
     * axios（資料傳輸）
     * socket.io（前端送出請求）
